@@ -18,4 +18,5 @@ class Character:
         return f"Character('{self.name}', Skill={self.skill}, Stamina={self.stamina})"
 
     def find_score(self,roll,score):
+        pass
 
