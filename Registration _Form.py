@@ -62,17 +62,16 @@ if __name__ == "__main__":
     title_label = ttk.Label(root, text="Registration Form", font=("Arial", 18, "bold"))
     title_label.pack(pady=10)
 
-    full_name_frame = tk.Frame(root)
-    full_name_frame.pack(fill=tk.X, padx=10, pady=5)
-    ttk.Label(full_name_frame, text="Full Name:").grid(row=0, column=0, sticky=tk.W, padx=5)
-    full_name_entry = ttk.Entry(full_name_frame)
-    full_name_entry.grid(row=0, column=1, padx=5)
+    general_frame = tk.Frame(root)
+    general_frame.pack(fill=tk.X, padx=10, pady=5)
 
-    email_frame = tk.Frame(root)
-    email_frame.pack(fill=tk.X, padx=10, pady=5)
-    ttk.Label(email_frame, text="Email:").grid(row=0, column=0, sticky=tk.W, padx=5)
-    email_entry = ttk.Entry(email_frame)
-    email_entry.grid(row=0, column=1, padx=5)
+    ttk.Label(general_frame, text="Full Name:").grid(row=0, column=0, sticky=tk.W, padx=5, pady=5)
+    full_name_entry = ttk.Entry(general_frame, width=30)
+    full_name_entry.grid(row=0, column=1, padx=5, pady=5)
+
+    ttk.Label(general_frame, text="Email:").grid(row=1, column=0, sticky=tk.W, padx=5, pady=5)
+    email_entry = ttk.Entry(general_frame, width=30)
+    email_entry.grid(row=1, column=1, padx=5, pady=5)
 
     gender_row = RadioButton(root)
     gender_row.pack(fill=tk.X, padx=10, pady=5)
@@ -87,3 +86,4 @@ if __name__ == "__main__":
     submit_label.pack(pady=10)
 
     root.mainloop()
+
