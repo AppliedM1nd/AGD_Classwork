@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d58115ca-9954-4745-8d9d-8243e4b5ceb2" name="Changes" comment="added ff module">
+      <change afterPath="$PROJECT_DIR$/GUI/registration_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/temperature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/temperature_converter.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AppliedM1nd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AppliedM1nd/AGD_Classwork.git&quot;,
+    &quot;accountId&quot;: &quot;10b5dbae-e8a1-4aeb-9aaf-b60609f929ab&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/OOP/ff working.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32az6I6ZX9ZQwDBABUrfsYKuoKj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest for test_code_shift.test_cipher_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_code_shift.test_negative_and_large_shifts.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_code_shift.test_shift_errors.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_code_shift.test_string_errors.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_grade_boundaries.test_calc_grade.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_grade_boundaries.test_calc_grade_invalid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_grade_boundaries.test_calc_grade_max_boundary.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_grade_boundaries.test_calc_grade_min_boundary.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_grade_boundaries.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shopping_Basket.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code_shift.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dog_oop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ff working.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fighting_fantasy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.input_validator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperature.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperature_converter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tk_interactive_buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tkinter_examples.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aadlam0809/OneDrive - Highgate School/PyCharm Projects/AGD Classwork&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aadlam0809\OneDrive - Highgate School\PyCharm Projects\AGD Classwork\tdd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.temperature_converter">
+    <configuration name="fighting_fantasy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AGD Classwork" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/fighting_fantasy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="AGD Classwork" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temperature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AGD Classwork" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/temperature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temperature_converter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AGD Classwork" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/temperature_converter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tk_interactive_buttons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AGD Classwork" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/tk_interactive_buttons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tkinter_examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AGD Classwork" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/tkinter_examples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.fighting_fantasy" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.temperature" />
+      <item itemvalue="Python.temperature_converter" />
+      <item itemvalue="Python.tk_interactive_buttons" />
+      <item itemvalue="Python.tkinter_examples" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.temperature_converter" />
+        <item itemvalue="Python.temperature" />
+        <item itemvalue="Python.tk_interactive_buttons" />
+        <item itemvalue="Python.tkinter_examples" />
+        <item itemvalue="Python.fighting_fantasy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d58115ca-9954-4745-8d9d-8243e4b5ceb2" name="Changes" comment="" />
+      <created>1757673295593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757673295593</updated>
+      <workItem from="1757673296495" duration="1380000" />
+      <workItem from="1757674698729" duration="721000" />
+      <workItem from="1758271508463" duration="2975000" />
+      <workItem from="1758539650790" duration="2106000" />
+      <workItem from="1758550977466" duration="2288000" />
+      <workItem from="1758792282005" duration="324000" />
+      <workItem from="1759481220532" duration="3095000" />
+      <workItem from="1759760408709" duration="2123000" />
+      <workItem from="1759999804603" duration="2721000" />
+      <workItem from="1760092960755" duration="1461000" />
+      <workItem from="1760690523772" duration="3166000" />
+      <workItem from="1762182827397" duration="2899000" />
+      <workItem from="1762423335668" duration="1921000" />
+      <workItem from="1762514744073" duration="2663000" />
+      <workItem from="1763114281461" duration="2026000" />
+      <workItem from="1763392421375" duration="1444000" />
+      <workItem from="1763394516865" duration="789000" />
+      <workItem from="1763633629034" duration="1215000" />
+      <workItem from="1763724389678" duration="2409000" />
+      <workItem from="1764322891771" duration="2641000" />
+      <workItem from="1764602062665" duration="1491000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added dog OOP exercise">
+      <option name="closed" value="true" />
+      <created>1759484183770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759484183770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added dog OOP exercise">
+      <option name="closed" value="true" />
+      <created>1759762485226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759762485226</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added dog OOP exercise">
+      <option name="closed" value="true" />
+      <created>1759762853247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759762853247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added dog OOP exercise">
+      <option name="closed" value="true" />
+      <created>1760002378487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760002378487</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added ff module">
+      <option name="closed" value="true" />
+      <created>1760002504646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760002504646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added ff module">
+      <option name="closed" value="true" />
+      <created>1760094411014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760094411014</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added ff module">
+      <option name="closed" value="true" />
+      <created>1760693554346</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760693554346</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added ff module">
+      <option name="closed" value="true" />
+      <created>1762425026820</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762425026820</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added ff module">
+      <option name="closed" value="true" />
+      <created>1763395302594</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763395302594</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added dog OOP exercise" />
+    <MESSAGE value="added ff module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ff module" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AGD_Classwork$temperature.coverage" NAME="temperature Coverage Results" MODIFIED="1763725773497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_code_shift_test_cipher_function.coverage" NAME="pytest for test_code_shift.test_cipher_function Coverage Results" MODIFIED="1758553095151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$tk_interactive_buttons.coverage" NAME="tk_interactive_buttons Coverage Results" MODIFIED="1763634453102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$dog_oop.coverage" NAME="dog_oop Coverage Results" MODIFIED="1760000393925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_code_shift_test_negative_and_large_shifts.coverage" NAME="pytest for test_code_shift.test_negative_and_large_shifts Coverage Results" MODIFIED="1758553101270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_code_shift_test_shift_errors.coverage" NAME="pytest for test_code_shift.test_shift_errors Coverage Results" MODIFIED="1758552957503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_grade_boundaries_test_calc_grade_invalid.coverage" NAME="pytest for test_grade_boundaries.test_calc_grade_invalid Coverage Results" MODIFIED="1758552384052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$Shopping_Basket.coverage" NAME="Shopping_Basket Coverage Results" MODIFIED="1760094082738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_grade_boundaries_test_calc_grade_max_boundary.coverage" NAME="pytest for test_grade_boundaries.test_calc_grade_max_boundary Coverage Results" MODIFIED="1758273561057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_in_test_grade_boundaries_py.coverage" NAME="pytest in test_grade_boundaries.py Coverage Results" MODIFIED="1758273666912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$tkinter_examples.coverage" NAME="tkinter_examples Coverage Results" MODIFIED="1763394610278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$fighting_fantasy.coverage" NAME="fighting_fantasy Coverage Results" MODIFIED="1762423530246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$temperature_converter.coverage" NAME="temperature_converter Coverage Results" MODIFIED="1763726604474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_grade_boundaries_test_calc_grade_min_boundary.coverage" NAME="pytest for test_grade_boundaries.test_calc_grade_min_boundary Coverage Results" MODIFIED="1758273549281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$code_shift.coverage" NAME="code_shift Coverage Results" MODIFIED="1758552827731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$input_validator.coverage" NAME="input_validator Coverage Results" MODIFIED="1757674276697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$main.coverage" NAME="main Coverage Results" MODIFIED="1758272376205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_code_shift_test_string_errors.coverage" NAME="pytest for test_code_shift.test_string_errors Coverage Results" MODIFIED="1758552991463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$ff_working.coverage" NAME="ff working Coverage Results" MODIFIED="1762183529239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
+    <SUITE FILE_PATH="coverage/AGD_Classwork$pytest_for_test_grade_boundaries_test_calc_grade.coverage" NAME="pytest for test_grade_boundaries.test_calc_grade Coverage Results" MODIFIED="1758273558547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tdd" />
+  </component>
+</project>

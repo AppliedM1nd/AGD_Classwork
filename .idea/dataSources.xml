@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\aadlam0809\OneDrive - Highgate School\PyCharm Projects\AGD Classwork\Databases\sqlite_student\student.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="sm_app_sqlite" uuid="c7403fea-f119-43a8-b576-b1b101337068">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\aadlam0809\OneDrive - Highgate School\PyCharm Projects\AGD Classwork\Databases\sm_app\sm_app_sqlite</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
