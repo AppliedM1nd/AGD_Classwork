@@ -1,9 +1,5 @@
 from sqlalchemy import create_engine
-
-from models import Base
-
+from sqlalchemy.orm import Session
+from models import Person, Activity
 engine = create_engine('sqlite:///activities.sqlite', echo=True)
-
-Base.metadata.drop_all(engine)
- 
-Base.metadata.create_all(engine)
+sess = Session(engine)
