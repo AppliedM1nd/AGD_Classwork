@@ -1,18 +1,19 @@
 import sqlite3
 
-add_to_users = """
+
+add_to_posts = """
 INSERT INTO
-    users(name,age,gender,nationality)
+    posts(title, description, user_id)
 VALUES
-    ('James',25,'male','USA'),
-    ('Leila',32,'female','France'),
-    ('Brigitte', 35, 'female', 'England'),
-    ('Mike',40,'male','Denmark'),
-    ('Elizabeth', 21, 'female', 'Canada')
+    ('Test1','Cool',1),
+    ('Cool thing','Wow',2),
+    ('Cool thing 2','Cool',3),
+    ('TV SHOW','Subscribe',4),
+    ('Weather report','Like the post',4)
 ;
 """
 
-with sqlite3.connect('sm_app_sqlite') as conn:
+with sqlite3.connect('sm_app.sqlite') as conn:
     cursor = conn.cursor()
-    cursor.execute(add_to_users)
+    cursor.execute(add_to_posts)
     conn.commit()

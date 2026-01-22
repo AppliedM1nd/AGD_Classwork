@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="student" uuid="246c50e5-0460-485f-a04b-9737a7be61c6">
+    <data-source source="LOCAL" name="activities" uuid="af13d7e7-2067-449e-b3a3-b78ee3816599">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\aadlam0809\OneDrive - Highgate School\PyCharm Projects\AGD Classwork\Databases\sqlite_student\student.sqlite</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="sm_app_sqlite" uuid="c7403fea-f119-43a8-b576-b1b101337068">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\aadlam0809\OneDrive - Highgate School\PyCharm Projects\AGD Classwork\Databases\sm_app\sm_app_sqlite</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="activities" uuid="32c579db-9ac8-4a6b-9776-5c71d246d9ee">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\aadlam0809\PycharmProjects\classwork\activities.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\aadlam0809\OneDrive - Highgate School\PyCharm Projects\AGD Classwork\Databases\Object Relational Mapper\activities.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>

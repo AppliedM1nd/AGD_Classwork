@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS comments \
     FOREIGN KEY (post_id) REFERENCES posts (id) \
 );
 """
-with sqlite3.connect('sm_app_sqlite') as conn:
+with sqlite3.connect('sm_app.sqlite') as conn:
     cursor = conn.cursor()
     cursor.execute(create_users_table)
     cursor.execute(create_posts_table)
