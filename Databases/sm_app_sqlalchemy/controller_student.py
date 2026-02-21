@@ -1,7 +1,6 @@
-from sqlalchemy.orm import selectinload
-
 import sqlalchemy as sa
 import sqlalchemy.orm as so
+from sqlalchemy.orm import selectinload
 
 from sm_app_sqlalchemy.models import User, Post, Comment
 
