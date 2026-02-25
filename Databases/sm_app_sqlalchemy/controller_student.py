@@ -1,8 +1,8 @@
+
 import sqlalchemy as sa
 import sqlalchemy.orm as so
-from sqlalchemy.orm import selectinload
 
-from sm_app_sqlalchemy.models import User, Post, Comment
+from sm_app_sqlalchemy.models import User, Post, Comment, likes_table
 
 
 class Controller:
@@ -22,7 +22,7 @@ class Controller:
                 return None
 
             self.current_user_id = user.id
-            return user
+            return True
 
     def get_user_name(self, user_id: int | None = None) -> str:
         if user_id is None:
@@ -44,31 +44,46 @@ class Controller:
             posts = session.scalars(
                 sa.select(Post).where(Post.user_id == user_id)
             ).all()
-        return list(posts)
+            user_dict = []
+            for post in posts:
+                like_total = session.scalar(
+                    sa.select(sa.func.count(likes_table.c.user_id))
+                    .where(likes_table.c.post_id == post.id)
+                )
+                user_dict.append({'id': post.id,
+                         'title': post.title,
+                         'description': post.description,
+                         'likes': like_total,
+                         'user_id': post.user_id})
+        return user_dict
 
     def get_all_posts(self):
         with so.Session(bind=self.engine) as session:
             posts = session.scalars(
                 sa.select(Post)
-                .options(selectinload(Post.liked_by_users))
                 .order_by(Post.id)
             ).all()
-        return list(posts)
+            post_dict = []
+            for post in posts:
+                like_total = session.scalar(
+                    sa.select(sa.func.count(likes_table.c.user_id))
+                    .where(likes_table.c.post_id == post.id)
+                )
+                post_dict.append({'id': post.id,
+                     'title': post.title,
+                     'description': post.description,
+                     'likes': like_total,
+                     'user_id': post.user_id})
+        return post_dict
 
-    def get_post_comments(self, post_id: int):
-        with so.Session(bind=self.engine) as session:
-            comments = session.scalars(
-                sa.select(Comment).where(Comment.post_id == post_id)
-            ).all()
-        return list(comments)
 
-    def get_user_comments(self, user_id: int):
-        with so.Session(bind=self.engine) as session:
-            comments = session.scalars(
-                sa.select(Comment).where(Comment.user_id == user_id)
-            ).all()
+    #def get_user_comments(self, user_id: int):
+    #    with so.Session(bind=self.engine) as session:
+    #        comments = session.scalars(
+    #            sa.select(Comment).where(Comment.user_id == user_id)
+    #        ).all()
 
-        return [(comment.comment, comment.post_id) for comment in comments]
+    #    return [(comment.comment, comment.post_id) for comment in comments]
 
     def add_user_to_db(self, name, age, gender, nationality):
         with so.Session(bind=self.engine) as session:
@@ -81,22 +96,12 @@ class Controller:
             session.add(new_user)
             session.commit()
 
-    def remove_user_from_db(self, user_id: int):
-        with so.Session(bind=self.engine) as session:
-            user = session.get(User, user_id)
-            if user:
-                session.delete(user)
-                session.commit()
-
-    def add_user_post(self, user_id: int, title: str, description: str):
-        with so.Session(bind=self.engine) as session:
-            new_post = Post(
-                title=title,
-                description=description,
-                user_id=user_id
-            )
-            session.add(new_post)
-            session.commit()
+    #def remove_user_from_db(self, user_id: int):
+    #    with so.Session(bind=self.engine) as session:
+    #        user = session.get(User, user_id)
+    #        if user:
+    #            session.delete(user)
+    #            session.commit()
 
     def add_user_comment(self, user_id: int, post_id: int, comment: str):
         with so.Session(bind=self.engine) as session:
@@ -138,18 +143,22 @@ class Controller:
             post = session.get(Post, post_id)
             if not post:
                 return False
-            return post.title, post.description, post.user_id, post.number_of_likes
+            return {'title': post.title,
+                    'description': post.description,
+                    'user_id': post.user_id,
+                    'likes': post.number_of_likes}
 
     def view_post_comments(self, post_id: int):
         with so.Session(bind=self.engine) as session:
             comments = session.scalars(
                 sa.select(Comment)
-                .options(selectinload(Comment.user))
                 .where(Comment.post_id == post_id)
             ).all()
             if not comments:
                 return ''
-            return comments
+            return [{'user_name': comment.user.name,
+                     'comment': comment.comment}
+                    for comment in comments]
 
 
 
