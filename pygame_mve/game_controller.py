@@ -1,4 +1,4 @@
-from pygame.game_objects import GameObject, Character
+from pygame_mve.game_objects import GameObject, Character
 import csv
 
 class Game:
