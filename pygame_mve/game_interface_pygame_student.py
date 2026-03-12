@@ -78,13 +78,18 @@ class GameGUI:
         ...
 
     def _draw(self):
-        """draw background first then characters"""
-        ...
+        pygame.draw.rect(self.screen,(255,0,0),(50,50,50,50))
+        pygame.draw.circle(self.screen,(255,0,0),(50,50),100)
+        pygame.draw.circle(self.screen, (200, 150, 100), (250, 150), 50)
         pygame.display.flip()
 
     def _draw_background(self):
         """Loop through all the game backgrounds and draw a rectangle of the appropriate colour"""
         self.screen.fill(BACKGROUND_COLORS['Floor'])
+        for bg in self.game.backgrounds:
+            grid_x, grid_y = self._convert_position(bg.position)
+            color = BACKGROUND_COLORS[bg.name]
+            pygame.draw.rect(self.screen, color, (grid_x, grid_y,SQUARE_SIZE, SQUARE_SIZE))
         ...
 
     def _draw_characters(self):
