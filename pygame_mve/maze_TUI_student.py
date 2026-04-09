@@ -1,4 +1,4 @@
-from pygame.game_controller import Game
+from pygame_mve.game_controller import Game
 
 
 class TextInterface:
